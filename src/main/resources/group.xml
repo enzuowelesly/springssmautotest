@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="classtest">
+    <test name="allrun">
+        <classes>
+            <class name="com.tanzi.ssm.autotest.groups.GroupONClass1"/>
+            <class name="com.tanzi.ssm.autotest.groups.GroupONClass2"/>
+            <class name="com.tanzi.ssm.autotest.groups.GroupONClass3"/>
+        </classes>
+    </test>
+    <test name="onlytecher">
+        <groups>
+            <run>
+                <include name="teacher"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.tanzi.ssm.autotest.groups.GroupONClass1"/>
+            <class name="com.tanzi.ssm.autotest.groups.GroupONClass1"/>
+            <class name="com.tanzi.ssm.autotest.groups.GroupONClass1"/>
+        </classes>
+    </test>
+</suite>

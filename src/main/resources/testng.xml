@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="this is my test reports">
+    <test name ="test mould">
+        <classes>
+            <class name="com.tanzi.ssm.autotest.AutoTestUser">
+                <methods>
+                    <include name="test_UserFindAll"/>
+                    <include name="test_saveUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.tanzi.ssm.autotest.ExtentTestNGReportListener"></listener>
+    </listeners>
+</suite>

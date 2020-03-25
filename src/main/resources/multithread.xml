@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="suitexml" parallel="methods" thread-count="2">
+    <test name="multithread">
+        <classes>
+            <class name="com.tanzi.ssm.autotest.multiThread.MultiThreadOnXml"/>
+        </classes>
+    </test>
+</suite>
